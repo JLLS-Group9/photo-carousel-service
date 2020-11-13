@@ -26,6 +26,7 @@ const listingSchema = mongoose.Schema({
 
 const ListingModel = mongoose.model('Listing', listingSchema);
 
+// eslint-disable-next-line func-style
 function insertOne(listing, callback) {
   ListingModel.create(listing, callback);
 }
