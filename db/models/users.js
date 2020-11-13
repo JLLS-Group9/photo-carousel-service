@@ -28,21 +28,25 @@ function findOne(id, callback) {
   UserModel.findOne(id, callback);
 };
 
-// function addSavedListing(personId, listingId) {
-//   UserModel.update(
-//     { _id: personId },
-//     { $push: { savedList: listingId } },
-//     done;
-//   );
-// }
+function saveListing(userId, listingId, callback) {
+  findOne(userId, (err, user) => {
+    if (err) console.error(err);
+    user.savedList.push(listingId);
+    user.save();
+  })
+}
 
-// function DeleteSavedListing(personId, listingId) {
-//     UserModel.update(
-//         { _id: personId },
-//         { $pullAll: {savedList: {listingId: listingId} } },
-//         done
-//     );
-// }
+function deleteListing(userId, listingId, callback) {
+  findOne(userId, (err, user) => {
+    if (err) console.error(err);
+    user.savedList.pull(listingId);
+    user.save();
+  })
+}
+
+
 
 module.exports.insertUser = insertOne;
 module.exports.find = findOne;
+module.exports.save = saveListing;
+module.exports.delete = deleteListing;
