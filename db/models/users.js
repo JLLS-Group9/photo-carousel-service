@@ -19,9 +19,14 @@ const UserModel = mongoose.model('User', userSchema);
 
 UserModel.createCollection();
 
+// eslint-disable-next-line func-style
 function insertOne(user, callback) {
   UserModel.create(user, callback);
 }
+
+function findOne(id, callback) {
+  UserModel.findOne(id, callback);
+};
 
 // function addSavedListing(personId, listingId) {
 //   UserModel.update(
@@ -40,3 +45,4 @@ function insertOne(user, callback) {
 // }
 
 module.exports.insertUser = insertOne;
+module.exports.find = findOne;

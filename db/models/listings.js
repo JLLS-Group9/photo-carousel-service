@@ -29,8 +29,13 @@ const ListingModel = mongoose.model('Listing', listingSchema);
 // eslint-disable-next-line func-style
 function insertOne(listing, callback) {
   ListingModel.create(listing, callback);
-}
+};
+
+function findOne(id, callback) {
+  ListingModel.findOne(id, callback);
+};
 
 ListingModel.createCollection();
 
 module.exports.insertListing = insertOne;
+module.exports.find = findOne;
