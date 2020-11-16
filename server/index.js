@@ -7,56 +7,65 @@ const Users = require('../db/models/users.js');
 
 // separate it later
 
-mongoose.connect('mongodb://localhost/photocarousel');
+mongoose.connect('mongodb://localhost/photocarousel', { useUnifiedTopology: true });
 
 const app = express();
-
 const PORT = 8080;
+
+const PATH = path.join(__dirname, '..', 'public/');
 
 app.use(bodyParser.json());
 //app.use('/api/listing', listingRouter);
+app.use('/api/homes/:id', express.static(PATH));
 
-app.get('/api', (req, res) => {
-  let query = req.query;
-  console.log(query.userId, query.listingId)
-  res.send(query)
-})
 
-app.get('/api/listing', (req, res) => {
-  let query = req.query;
+app.get('/api/homes/:id/listing', (req, res) => {
+  let query = req.params;
+  console.log(query);
   Listings.find(query, (err, listing) => {
-    if(err) console.error(err)
-    console.log(listing)
-    res.send(listing)
-  })
-})
+    if (err) { console.error(err); }
+    console.log(listing);
+    res.send(listing);
+  });
+});
 
-app.get('/api/user', (req, res) => {
-  let query = req.query;
-  Users.find(query, (err, user) => {
-    if(err) console.error(err)
-    console.log(user)
-    res.send(user)
-  })
-})
 
-app.post('/api/user', (req, res) => {
-  let query = req.query;
-  let listing= req.body.listingId;
-  let isSaved = req.body.saved;
+app.put('/api/homes/:id/listing', (req, res) => {
+  let query = req.params;
+  let update = req.body;
+  Listings.save(query, update, (err, listing)=> {
+    if (err) { console.error(err); }
+    console.log(listing.saved);
+    res.send(listing);
+  });
+});
 
-  if(isSaved) {
-    console.log(query, listing)
-    Users.delete(query, listing)
-    res.send(false)
-  } else {
-    console.log(query, listing)
-    Users.save(query, listing)
-    res.send(true)
-  }
-})
+// Tony said not to worry about user input for now
+
+// app.get('/api/homes/:id/user/', (req, res) => {
+//   let query = req.query;
+//   Users.find(query, (err, user) => {
+//     if(err) console.error(err);
+//     console.log(user);
+//     res.send(user);
+//   });
+// });
+
+// app.put('/api/homes/:id/user', (req, res) => {
+//   let query = req.params;
+//   let listing = req.body.listingId;
+//   let isSaved = req.body.saved;
+
+//   if (isSaved) {
+//     Users.delete(query, listing);
+//     res.send(false);
+//   } else {
+//     Users.save(query, listing);
+//     res.send(true);
+//   }
+// });
 
 app.listen(PORT, () => {
-  console.log(`listening on port ${PORT}`);
+  console.log(`listening on port ${PORT}`, PATH);
 });
 
