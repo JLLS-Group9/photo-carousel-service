@@ -11,7 +11,7 @@ db.once('open', () => {
 });
 
 const userSchema = mongoose.Schema({
-  userId: Number,
+  id: Number,
   savedList: [Number],
 });
 

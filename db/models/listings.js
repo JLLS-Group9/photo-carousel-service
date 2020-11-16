@@ -9,7 +9,7 @@ db.once('open', () => {
 });
 
 const listingSchema = mongoose.Schema({
-  listingId: Number,
+  id: Number,
   topHeaders: {
     forSale: Boolean,
     forRent: Boolean,
@@ -21,6 +21,7 @@ const listingSchema = mongoose.Schema({
   price: Number,
   bedroom: Number,
   bathroom: Number,
+  saved: Boolean,
   photos: [String],
 });
 
@@ -29,13 +30,19 @@ const ListingModel = mongoose.model('Listing', listingSchema);
 // eslint-disable-next-line func-style
 function insertOne(listing, callback) {
   ListingModel.create(listing, callback);
-};
+}
 
+// eslint-disable-next-line func-style
 function findOne(id, callback) {
   ListingModel.findOne(id, callback);
-};
+}
 
-ListingModel.createCollection();
+// eslint-disable-next-line func-style
+function save(id, update, callback) {
+  ListingModel.findOneAndUpdate(id, update, { new: true}, callback);
+}
 
+// ListingModel.createCollection();
+module.exports.save = save;
 module.exports.insertListing = insertOne;
 module.exports.find = findOne;
