@@ -4,11 +4,11 @@ const Listings = require('./db/models/listings.js');
 const housesUrls = require('./photosData').housesPhotos;
 const Users = require('./db/models/users.js');
 
-mongoose.connect('mongodb://localhost/photocarousel', { useNewUrlParser: true });
+mongoose.connect('mongodb://localhost/photocarousel', { useNewUrlParser: true, useUnifiedTopology: true });
 
 const makeListing = function (id) {
   return {
-    listingId: id + 1,
+    id: id + 1,
     topHeaders: {
       forSale: (Math.random() < 0.5),
       forRent: (Math.random() < 0.5),
@@ -18,6 +18,7 @@ const makeListing = function (id) {
     },
     address: `${faker.address.streetAddress()}, ${faker.address.city()} ${faker.address.state()}, ${faker.address.zipCodeByState()}`,
     price: Math.floor(Math.random() * 1000) * 1000,
+    saved: false,
     bedroom: Math.ceil(Math.random() * 10),
     bathroom: Math.ceil(Math.random() * 4),
     photos: housesUrls[Math.floor(Math.random() * 5)],
@@ -36,7 +37,7 @@ const populateSavedList = function (number) {
 
 const makeUser = function (id, number) {
   return {
-    userId: id + 1,
+    id: id + 1,
     savedList: populateSavedList(number),
   };
 };
