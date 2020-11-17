@@ -24,7 +24,6 @@ app.get('/api/homes/:id/listing', (req, res) => {
   console.log(query);
   Listings.find(query, (err, listing) => {
     if (err) { console.error(err); }
-    console.log(listing);
     res.send(listing);
   });
 });
@@ -35,7 +34,6 @@ app.put('/api/homes/:id/listing', (req, res) => {
   let update = req.body;
   Listings.save(query, update, (err, listing)=> {
     if (err) { console.error(err); }
-    console.log(listing.saved);
     res.send(listing);
   });
 });

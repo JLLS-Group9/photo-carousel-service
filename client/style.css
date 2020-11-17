@@ -1,7 +1,6 @@
 /* there */
 
 .central {
-
   margin: auto;
   width: 50%;
 
@@ -76,6 +75,7 @@
 
 .headers:hover {
   cursor: default;
+  background-color: white;
 }
 
 .headerBorder{
@@ -110,7 +110,7 @@
 
 
 
-
+/* photo button icon styling */
 
 .photos {
   position: absolute;

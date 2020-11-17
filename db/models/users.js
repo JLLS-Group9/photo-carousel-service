@@ -24,29 +24,29 @@ function insertOne(user, callback) {
   UserModel.create(user, callback);
 }
 
-function findOne(id, callback) {
-  UserModel.findOne(id, callback);
-};
+// function findOne(id, callback) {
+//   UserModel.findOne(id, callback);
+// };
 
-function saveListing(userId, listingId, callback) {
-  findOne(userId, (err, user) => {
-    if (err) console.error(err);
-    user.savedList.push(listingId);
-    user.save();
-  })
-}
+// function saveListing(userId, listingId, callback) {
+//   findOne(userId, (err, user) => {
+//     if (err) console.error(err);
+//     user.savedList.push(listingId);
+//     user.save();
+//   })
+// }
 
-function deleteListing(userId, listingId, callback) {
-  findOne(userId, (err, user) => {
-    if (err) console.error(err);
-    user.savedList.pull(listingId);
-    user.save();
-  })
-}
+// function deleteListing(userId, listingId, callback) {
+//   findOne(userId, (err, user) => {
+//     if (err) console.error(err);
+//     user.savedList.pull(listingId);
+//     user.save();
+//   })
+// }
 
 
 
-module.exports.insertUser = insertOne;
-module.exports.find = findOne;
-module.exports.save = saveListing;
-module.exports.delete = deleteListing;
+// module.exports.insertUser = insertOne;
+// module.exports.find = findOne;
+// module.exports.save = saveListing;
+// module.exports.delete = deleteListing;

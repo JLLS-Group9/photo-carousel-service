@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../style.css';
 
-const Central = ({listingInfo, numPhoto}) => {
+const Central = ({listingInfo, numPhoto, toggleGallery}) => {
 
   let headers = listingInfo.topHeaders;
 
@@ -12,7 +12,7 @@ const Central = ({listingInfo, numPhoto}) => {
       // will refactor to be less messy
       <div className={styles.central}>
         {/* the photogrid */}
-        <div className={styles.gridCentral}>
+        <div className={styles.gridCentral} onClick={ () => { toggleGallery(); }}>
           <img className={styles.centralImageOne} src={listingInfo.photos[0]}></img>
           <img className={styles.centralImageTwo} src={listingInfo.photos[1]}></img>
           <img className={styles.centralImageThree} src={listingInfo.photos[2]}></img>

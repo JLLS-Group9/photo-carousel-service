@@ -1,0 +1,104 @@
+
+
+.Modal {
+  position: fixed;
+  z-index: 9;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.ModalContent {
+  position: relative;
+  background-color: #fefefe;
+  margin: 3rem;
+  padding: 0;
+  border: 1px solid #888;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  overflow: hidden;
+
+}
+
+element {
+  font: 1rem;
+  padding: 8px;
+}
+
+.navBar {
+  margin-top: 16px;
+  padding-left: 6px;
+  padding-bottom: 26px;
+  border-bottom: lightgrey solid 1px;
+}
+
+
+.navborders {
+  box-sizing: border-box;
+  padding: 8px 16px;
+  margin: 1px;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.navborders:hover {
+  cursor: pointer;
+  background-color: lightgrey;
+}
+
+.listingHeader {
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.gridContainer {
+  overflow: auto;
+  height: 80%;
+  width: 75%;
+}
+
+
+.rowContainerOne {
+  overflow:hidden;
+  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.rowContainerTwo {
+  overflow:hidden;
+  grid-template-rows: 100%;
+  grid-template-columns: 50%, 50%;
+  width: 100%;
+  height: 50%;
+}
+
+.rowContainerThree {
+  overflow:hidden;
+  grid-template-rows: 100%;
+  grid-template-columns: 33%, 33%, 33%;
+  width: 100%;
+  height: 33%;
+}
+
+.photoOne {
+  grid-column-end: 1;
+}
+
+.photoTwo {
+  grid-column-end: 2;
+}
+
+.photoThree {
+  grid-column-end: 3;
+}
+
+.photo {
+  box-sizing: border-box;
+  border-bottom: white solid 10px;
+  border-left: white solid 10px;
+  overflow: hidden;
+}
