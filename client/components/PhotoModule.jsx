@@ -59,9 +59,9 @@ class PhotoModule extends React.Component {
   toggleCarousel(id) {
     event.preventDefault();
     this.setState({
+      showCarousel: true,
       place: id
     });
-    console.log(this.state);
   }
 
 
@@ -80,7 +80,8 @@ class PhotoModule extends React.Component {
           listingInfo={this.state.listingInfo}
           show={this.state.showCarousel}
           toggleCarousel={this.toggleCarousel}
-          numPhoto={this.state.numPhoto}/>
+          numPhoto={this.state.numPhoto}
+          place={this.state.place}/>
       </div>
     );
   }

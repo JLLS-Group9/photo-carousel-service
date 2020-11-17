@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from './gallery.css';
 import { poplateGrid } from './gridBuilder.jsx';
 
@@ -25,7 +25,7 @@ const PhotoGrid = ({photos, toggleCarousel}) => {
 
       if (randRow === 1 || lastRow === 1) {
         finalGrid.push(
-          <div className ={styles.onethreeColumns}>
+          <div className ={styles.oneColumns}>
             <img onClick={() => { check(); }} className ={styles.photo} id={currentPhoto + 1} src={photos[currentPhoto]} width="100%"></img>
           </div>
         );
@@ -53,7 +53,13 @@ const PhotoGrid = ({photos, toggleCarousel}) => {
     return finalGrid;
   };
 
-  let grid = poplateGrid(photos);
+  const [grid, setGrid] = useState(poplateGrid(photos));
+
+  useEffect(() => {
+   console.log('render');
+  }, []);
+
+
 
   return (
     <div>

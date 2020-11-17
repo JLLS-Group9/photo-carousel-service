@@ -16,7 +16,7 @@ const makeListing = function (id) {
       pending: (Math.random() < 0.5),
       isNew: (Math.random() < 0.5),
     },
-    address: `${faker.address.streetAddress()}, ${faker.address.city()} ${faker.address.state()}, ${faker.address.zipCodeByState()}`,
+    address: `${faker.address.streetAddress()}, ${faker.address.city()}, ${faker.address.state()}, ${faker.address.zipCodeByState()}`,
     price: Math.floor(Math.random() * 1000) * 1000,
     saved: false,
     bedroom: Math.ceil(Math.random() * 10),
