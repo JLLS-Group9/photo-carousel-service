@@ -1,25 +1,24 @@
 
-
+/* styling for modal */
 .Modal {
-  position: fixed;
-  z-index: 9;
+  position: fixed; /* stays fixed on window */
+  z-index: 9; /* on top of current content */
   left: 0;
   top: 0;
-  width: 100%;
+  width: 100%; /* fills the enire width of page */
   height: 100%;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.4);  /* last value is the tranparency */
 }
 
-.ModalContent {
+.ModalContent { /* this is  wrapper for the modal content*/
   position: relative;
   background-color: #fefefe;
-  margin: 3rem;
+  margin: 3rem;  /* this is roughtly 48px from top bottom */
   padding: 0;
   border: 1px solid #888;
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-  overflow: hidden;
-
+  overflow: hidden; /* hides anything that goes beyond the limits of modal content*/
 }
 
 element {

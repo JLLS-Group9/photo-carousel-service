@@ -13,11 +13,15 @@ const Gallery = ({listingInfo, show, toggleGallery, toggleCarousel}) => {
     }
   };
 
+  //if show is true modal is shown
   if (show) {
 
     return (
       <div>
+        {/*This is wrapper for the entire modal*/ }
+        {/*closeModal changes the state of showGallery from the function in line 9*/ }
         <div className={styles.Modal} onClick={closeModal} id="myModal">
+           {/*This is wrapper for the modal content */ }
           <div className={styles.ModalContent}>
             <NavBar />
             <div className={styles.listingHeader}>{listingInfo.address} | ${listingInfo.price.toLocaleString()} | {listingInfo.bedroom} Beds {listingInfo.bathroom} Baths</div>
