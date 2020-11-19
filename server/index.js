@@ -15,7 +15,7 @@ const PORT = 8080;
 const PATH = path.join(__dirname, '..', 'public/');
 
 app.use(bodyParser.json());
-//app.use('/api/listing', listingRouter);
+
 app.use('/api/homes/:id', express.static(PATH));
 
 

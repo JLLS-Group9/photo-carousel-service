@@ -1,24 +1,41 @@
 
-/* styling for modal */
+
 .Modal {
-  position: fixed; /* stays fixed on window */
-  z-index: 9; /* on top of current content */
+  position: fixed;
+  z-index: 9;
   left: 0;
   top: 0;
-  width: 100%; /* fills the enire width of page */
+  width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.6);  /* last value is the tranparency */
+  background-color: rgba(0,0,0,0.6);
 }
 
-.ModalContent { /* this is  wrapper for the modal content*/
+
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+
+.ModalContent {
   position: relative;
   background-color: #fefefe;
-  margin: 3rem;  /* this is roughtly 48px from top bottom */
+  margin: 3rem;
   padding: 0;
-  border: 1px solid #888;
-  border-radius: 20px;
+  height: 90%;
+  border-bottom: 10px solid white;
+  border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   overflow: hidden; /* hides anything that goes beyond the limits of modal content*/
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
 }
 
 element {
@@ -27,22 +44,41 @@ element {
 }
 
 .navBar {
-  margin-top: 16px;
-  padding-left: 6px;
-  padding-bottom: 26px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 16px;
   border-bottom: lightgrey solid 1px;
 }
 
 
 .navborders {
   box-sizing: border-box;
-  padding: 8px 16px;
+  color: rgb(75, 75, 75);
+  padding: 10px 16px;
+  font-weight: bold;
   margin: 1px;
   background-color: white;
   border-radius: 0.5rem;
+  transition: background-color 0.5s ease;
 }
 
-.navborders:hover {
+path{
+  transition: fill .4s ease;
+}
+
+.navPhoto {
+  color: rgb(0, 120, 130);
+  border: 1px solid lightgrey;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+  box-sizing: border-box;
+  padding: 10px 16px;
+  margin: 1px;
+  border-radius: 0.5rem;
+  transition: background-color 0.5s ease;
+}
+
+.navborders:hover, .navPhoto:hover {
   cursor: pointer;
   background-color: lightgrey;
 }
@@ -52,23 +88,80 @@ element {
   font-size: 1rem;
 }
 
+
+.gridButtons {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+}
+
+.sharesvg {
+  position: relative;
+  top: 6px;
+}
+
+.heartsvg {
+  position: relative;
+  padding-right: 2px;
+  top: 7px;
+  left: -3px;
+}
+
+.cover:hover {
+  fill: rgb(0, 120, 130);
+}
+
+.closesvg {
+  position: relative;
+  padding: 5px;
+  padding-left: 10px;
+  top: 7px;
+  cursor: pointer;
+
+}
+
+.save, .share, .isSaved {
+  box-sizing: border-box;
+  margin-left: 15px;
+  padding: 10px;
+  font: 16px;
+  color: black;
+  border-radius: 10px;
+  border: lightgray solid 1px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1),0 6px 20px 0 rgba(0,0,0,0.1);
+  background-color: white;
+  transition: background-color 0.5s ease;
+}
+
+.save:hover, .share:hover, .isSaved:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.isSaved {
+  color:orange;
+}
+
+
+
+
 .gridContainer {
   overflow: auto;
   scrollbar-width: auto;
   cursor: pointer;
   border-bottom: 10px solid white;
   border-bottom-left-radius: 20px;
-  height: 80%;
+  height: 90%;
   width: 75%;
 }
 
 
 .rowContainerOne {
-  overflow:hidden;
   grid-template-rows: 100%;
   grid-template-columns: 100%;
   width: 100%;
-  height: 80%;
+  height: 70%;
+  overflow: hidden;
 }
 
 .rowContainerTwo {
@@ -101,7 +194,89 @@ element {
 
 .photo {
   box-sizing: border-box;
-  border-bottom: white solid 10px;
-  border-left: white solid 10px;
+  border-bottom: white solid 8px;
+  border-left: white solid 8px;
   overflow: hidden;
+}
+
+.form {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  height: 90%;
+  width: 25%;
+}
+
+.content {
+  margin: 1rem;
+  padding: 1rem;
+  border: lightgrey solid 1px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1)
+}
+
+.formHeader {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 100%;
+  height: 7%;
+  font-size: 125%;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.submit {
+  width: 100%;
+  height: 7%;
+  display: inline;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(217, 60, 35);
+  border: 2px solid rgb(217, 60, 35);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  text-align: center;
+}
+
+.submit:hover {
+  border: 2px solid rgb(217, 60, 35);
+  background-color: white;
+  color: rgb(217, 60, 35);;
+}
+
+textarea {
+  width: 100%;
+  font-size: 125%;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.warning{
+  font-size: 12px;
+}
+
+.container .checkmark {
+  left: 9px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+
 }

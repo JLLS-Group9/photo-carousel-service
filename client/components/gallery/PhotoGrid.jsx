@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import styles from './gallery.css';
-import { poplateGrid } from './gridBuilder.jsx';
 
-const PhotoGrid = ({photos, toggleCarousel}) => {
+const PhotoGrid = ({photos, toggleCarousel, addPlace}) => {
 
   let check = () => {
     let id = (event.target.id);
+
     toggleCarousel(id);
   };
 
@@ -25,7 +25,7 @@ const PhotoGrid = ({photos, toggleCarousel}) => {
 
       if (randRow === 1 || lastRow === 1) {
         finalGrid.push(
-          <div className ={styles.oneColumns}>
+          <div className={styles.oneColumns}>
             <img onClick={() => { check(); }} className ={styles.photo} id={currentPhoto + 1} src={photos[currentPhoto]} width="100%"></img>
           </div>
         );
@@ -33,8 +33,8 @@ const PhotoGrid = ({photos, toggleCarousel}) => {
       } else if (randRow === 2 || lastRow === 2) {
         finalGrid.push(
           <div className ={styles.twoColumns}>
-            <img onClick={() => { check(); }} className ={styles.photo} id={currentPhoto + 1} src={photos[currentPhoto]} width="50%" height="60%"></img>
-            <img onClick={() => { check(); }} className ={styles.photo} id={currentPhoto + 2} src={photos[currentPhoto + 1]} width="50%" height="60%"></img>
+            <img onClick={() => { check(); }} className ={styles.photo} id={currentPhoto + 1} src={photos[currentPhoto]} width="50%" height="70%"></img>
+            <img onClick={() => { check(); }} className ={styles.photo} id={currentPhoto + 2} src={photos[currentPhoto + 1]} width="50%" height="70%"></img>
           </div>
         );
         currentPhoto += 2;
@@ -56,17 +56,13 @@ const PhotoGrid = ({photos, toggleCarousel}) => {
   const [grid, setGrid] = useState(poplateGrid(photos));
 
   useEffect(() => {
-   console.log('render');
+    console.log(grid);
   }, []);
 
-
-
   return (
-    <div>
-      <div className={styles.gridContainer}>
-        <div>
-          {grid.map( (row) => { return row; })}
-        </div>
+    <div className={styles.gridContainer}>
+      <div>
+        {grid.map( (row) => { return row; })}
       </div>
     </div>
   );
