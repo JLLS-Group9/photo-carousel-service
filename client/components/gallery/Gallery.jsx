@@ -14,13 +14,11 @@ const Gallery = ({listingInfo, show, toggleGallery, toggleCarousel, addPlace, sa
     }
   };
 
-  //if show is true modal is shown
   if (show) {
 
     return (
       <div>
         <div className={styles.Modal} onClick={closeModal} id="myModal">
-          {/*This is wrapper for the modal content */ }
           <div className={styles.ModalContent}>
             <NavBar save={save} listingInfo={listingInfo} toggleGallery={toggleGallery}/>
             <div className={styles.listingHeader}>{listingInfo.address} | ${listingInfo.topHeaders.forRent ? (Math.round((listingInfo.price / 400) / 100 ) * 100).toLocaleString() + '+/mo' : listingInfo.price.toLocaleString()} | {listingInfo.bedroom} Beds {listingInfo.bathroom} Baths</div>
