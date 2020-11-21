@@ -55,10 +55,6 @@ const PhotoGrid = ({photos, toggleCarousel, addPlace}) => {
 
   const [grid, setGrid] = useState(poplateGrid(photos));
 
-  useEffect(() => {
-    console.log(grid);
-  }, []);
-
   return (
     <div className={styles.gridContainer}>
       <div>

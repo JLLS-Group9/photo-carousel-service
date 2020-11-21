@@ -1,6 +1,7 @@
 /* there */
 
 
+
 .central {
   margin: auto;
   width: 50%;
@@ -19,7 +20,7 @@
   width: 100%;
   max-width: 992px;
   max-height: 500px;
-  border-radius: 20px;
+  border-radius: 16px;
   overflow: hidden;
   z-index: 1;
 
