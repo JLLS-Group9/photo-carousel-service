@@ -62,7 +62,7 @@ class PhotoModule extends React.Component {
 
 
   getEndpoint() {
-    return window.location.href;
+    return `/api${window.location.pathname}`;
   }
 
   // get listing data from endpoint id number

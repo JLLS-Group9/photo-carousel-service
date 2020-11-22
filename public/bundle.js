@@ -29,6 +29,7 @@ eval("module.exports = __webpack_require__(/*! ./lib/axios */ \"./node_modules/a
   \************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 12:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -42,6 +43,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \*****************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 50:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -55,6 +57,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./utils */ \"./node_modules/axios/
   \*************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 19:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -68,6 +71,7 @@ eval("\n\n/**\n * A `Cancel` is an object that is thrown when an operation is ca
   \******************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 57:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -81,6 +85,7 @@ eval("\n\nvar Cancel = __webpack_require__(/*! ./Cancel */ \"./node_modules/axio
   \***************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 3:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -94,6 +99,7 @@ eval("\n\nmodule.exports = function isCancel(value) {\n  return !!(value && valu
   \**********************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 95:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -107,6 +113,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \***********************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 52:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -120,6 +127,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \******************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 15:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -133,6 +141,7 @@ eval("\n\nvar isAbsoluteURL = __webpack_require__(/*! ../helpers/isAbsoluteURL *
   \****************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 15:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -146,6 +155,7 @@ eval("\n\nvar enhanceError = __webpack_require__(/*! ./enhanceError */ \"./node_
   \********************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 23:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -159,6 +169,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \*****************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 13:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -172,6 +183,7 @@ eval("\n\n/**\n * Update an Error with the specified config, error code, and res
   \****************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 13:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -185,6 +197,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ../utils */ \"./node_modules/axios
   \***********************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 12:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -198,6 +211,7 @@ eval("\n\nvar createError = __webpack_require__(/*! ./createError */ \"./node_mo
   \******************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 13:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -211,6 +225,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \********************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 98:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -224,6 +239,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./utils */ \"./node_modules/axios/
   \************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 3:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -237,6 +253,7 @@ eval("\n\nmodule.exports = function bind(fn, thisArg) {\n  return function wrap(
   \****************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 22:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -250,6 +267,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \*******************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 10:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -263,6 +281,7 @@ eval("\n\n/**\n * Creates a new URL by combining the specified URLs\n *\n * @par
   \***************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 5:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -276,6 +295,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \*********************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 9:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -289,6 +309,7 @@ eval("\n\n/**\n * Determines whether the specified URL is absolute\n *\n * @para
   \***********************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 5:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -302,6 +323,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \***************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 5:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -315,6 +337,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ../utils */ \"./node_modules/axios
   \********************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 27:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -328,6 +351,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \**************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 23:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -341,6 +365,7 @@ eval("\n\n/**\n * Syntactic sugar for invoking a function and expanding an array
   \*****************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 328:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -359,7 +384,7 @@ eval("\n\nvar bind = __webpack_require__(/*! ./helpers/bind */ \"./node_modules/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _central_Central_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./central/Central.jsx */ \"./client/components/central/Central.jsx\");\n/* harmony import */ var _gallery_Gallery_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./gallery/Gallery.jsx */ \"./client/components/gallery/Gallery.jsx\");\n/* harmony import */ var _carousel_Carousel_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./carousel/Carousel.jsx */ \"./client/components/carousel/Carousel.jsx\");\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ \"./node_modules/axios/index.js\");\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_4__);\nfunction _typeof(obj) { \"@babel/helpers - typeof\"; if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\n\n\n\n\n\n\nvar PhotoModule = /*#__PURE__*/function (_React$Component) {\n  _inherits(PhotoModule, _React$Component);\n\n  var _super = _createSuper(PhotoModule);\n\n  function PhotoModule(props) {\n    var _this;\n\n    _classCallCheck(this, PhotoModule);\n\n    _this = _super.call(this, props);\n    _this.state = {\n      listingInfo: {},\n      showGallery: false,\n      showCarousel: false,\n      showShare: false,\n      numPhoto: 0,\n      place: 0\n    };\n    _this.updateData = _this.updateData.bind(_assertThisInitialized(_this));\n    _this.getEndpoint = _this.getEndpoint.bind(_assertThisInitialized(_this));\n    _this.toggleGallery = _this.toggleGallery.bind(_assertThisInitialized(_this));\n    _this.toggleCarousel = _this.toggleCarousel.bind(_assertThisInitialized(_this));\n    _this.toggleShare = _this.toggleShare.bind(_assertThisInitialized(_this));\n    _this.placeCarousel = _this.placeCarousel.bind(_assertThisInitialized(_this));\n    _this.closeCarousel = _this.closeCarousel.bind(_assertThisInitialized(_this));\n    _this.updateSave = _this.updateSave.bind(_assertThisInitialized(_this));\n    _this.changeplace = _this.changeplace.bind(_assertThisInitialized(_this));\n    return _this;\n  }\n\n  _createClass(PhotoModule, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      var _this2 = this;\n\n      this.updateData();\n      window.addEventListener('keydown', function () {\n        console.log('A key was pressed', event.keyCode);\n        console.log();\n\n        if (event.keyCode === 37) {\n          _this2.changeplace('left');\n        } else if (event.keyCode === 39) {\n          _this2.changeplace('right');\n        } else if (event.keyCode === 27) {\n          if (_this2.state.showCarousel === true) {\n            _this2.closeCarousel();\n\n            return;\n          } else if (_this2.state.showGallery === true) {\n            _this2.toggleGallery();\n\n            return;\n          }\n\n          return;\n        }\n      });\n    }\n  }, {\n    key: \"changeplace\",\n    value: function changeplace(direction) {\n      var place = this.state.place;\n\n      if (direction === 'right') {\n        place === this.state.numPhoto ? place = 1 : place++;\n      } else if (direction === 'left') {\n        place === 1 ? place = this.state.numPhoto : place--;\n      }\n\n      this.placeCarousel(place);\n    }\n  }, {\n    key: \"getEndpoint\",\n    value: function getEndpoint() {\n      return window.location.href;\n    } // get listing data from endpoint id number\n\n  }, {\n    key: \"updateData\",\n    value: function updateData() {\n      var _this3 = this;\n\n      axios__WEBPACK_IMPORTED_MODULE_4___default().get(\"\".concat(this.getEndpoint(), \"listing\")).then(function (res) {\n        _this3.setState({\n          listingInfo: res.data,\n          numPhoto: res.data.photos.length\n        });\n      })[\"catch\"](function (err) {\n        return console.log(err);\n      });\n    }\n  }, {\n    key: \"updateSave\",\n    value: function updateSave() {\n      var _this4 = this;\n\n      var update = {\n        saved: !this.state.listingInfo.saved\n      };\n      axios__WEBPACK_IMPORTED_MODULE_4___default().put(\"\".concat(this.getEndpoint(), \"listing\"), update).then(function (res) {\n        _this4.setState({\n          listingInfo: res.data\n        });\n\n        console.log(res.data.saved);\n      })[\"catch\"](function (err) {\n        return console.log(err);\n      });\n    }\n  }, {\n    key: \"toggleGallery\",\n    value: function toggleGallery() {\n      this.setState({\n        showGallery: !this.state.showGallery\n      });\n    }\n  }, {\n    key: \"toggleShare\",\n    value: function toggleShare() {\n      this.setState({\n        showShare: !this.state.showShare\n      });\n    }\n  }, {\n    key: \"toggleCarousel\",\n    value: function toggleCarousel(id) {\n      var numberId = Number(id);\n      this.setState({\n        place: numberId,\n        showCarousel: !this.state.showCarousel\n      });\n      console.log(this.state);\n    }\n  }, {\n    key: \"placeCarousel\",\n    value: function placeCarousel(id) {\n      var numberId = Number(id);\n      this.setState({\n        place: numberId\n      });\n    }\n  }, {\n    key: \"closeCarousel\",\n    value: function closeCarousel() {\n      this.setState({\n        showCarousel: false\n      });\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_central_Central_jsx__WEBPACK_IMPORTED_MODULE_1__.default, {\n        listingInfo: this.state.listingInfo,\n        numPhoto: this.state.numPhoto,\n        toggleGallery: this.toggleGallery,\n        save: this.updateSave\n      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_gallery_Gallery_jsx__WEBPACK_IMPORTED_MODULE_2__.default, {\n        listingInfo: this.state.listingInfo,\n        show: this.state.showGallery,\n        numPhoto: this.state.numPhoto,\n        toggleGallery: this.toggleGallery,\n        toggleCarousel: this.toggleCarousel,\n        addPlace: this.placeCarousel,\n        save: this.updateSave\n      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_carousel_Carousel_jsx__WEBPACK_IMPORTED_MODULE_3__.default, {\n        listingInfo: this.state.listingInfo,\n        show: this.state.showCarousel,\n        toggleCarousel: this.toggleCarousel,\n        closeCarousel: this.closeCarousel,\n        numPhoto: this.state.numPhoto,\n        place: this.state.place,\n        addPlace: this.placeCarousel,\n        save: this.updateSave\n      }));\n    }\n  }]);\n\n  return PhotoModule;\n}(react__WEBPACK_IMPORTED_MODULE_0__.Component);\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (PhotoModule);\n\n//# sourceURL=webpack://front-end/./client/components/PhotoModule.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _central_Central_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./central/Central.jsx */ \"./client/components/central/Central.jsx\");\n/* harmony import */ var _gallery_Gallery_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./gallery/Gallery.jsx */ \"./client/components/gallery/Gallery.jsx\");\n/* harmony import */ var _carousel_Carousel_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./carousel/Carousel.jsx */ \"./client/components/carousel/Carousel.jsx\");\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ \"./node_modules/axios/index.js\");\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_4__);\nfunction _typeof(obj) { \"@babel/helpers - typeof\"; if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\n\n\n\n\n\n\nvar PhotoModule = /*#__PURE__*/function (_React$Component) {\n  _inherits(PhotoModule, _React$Component);\n\n  var _super = _createSuper(PhotoModule);\n\n  function PhotoModule(props) {\n    var _this;\n\n    _classCallCheck(this, PhotoModule);\n\n    _this = _super.call(this, props);\n    _this.state = {\n      listingInfo: {},\n      showGallery: false,\n      showCarousel: false,\n      showShare: false,\n      numPhoto: 0,\n      place: 0\n    };\n    _this.updateData = _this.updateData.bind(_assertThisInitialized(_this));\n    _this.getEndpoint = _this.getEndpoint.bind(_assertThisInitialized(_this));\n    _this.toggleGallery = _this.toggleGallery.bind(_assertThisInitialized(_this));\n    _this.toggleCarousel = _this.toggleCarousel.bind(_assertThisInitialized(_this));\n    _this.toggleShare = _this.toggleShare.bind(_assertThisInitialized(_this));\n    _this.placeCarousel = _this.placeCarousel.bind(_assertThisInitialized(_this));\n    _this.closeCarousel = _this.closeCarousel.bind(_assertThisInitialized(_this));\n    _this.updateSave = _this.updateSave.bind(_assertThisInitialized(_this));\n    _this.changeplace = _this.changeplace.bind(_assertThisInitialized(_this));\n    return _this;\n  }\n\n  _createClass(PhotoModule, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      var _this2 = this;\n\n      this.updateData();\n      window.addEventListener('keydown', function () {\n        console.log('A key was pressed', event.keyCode);\n        console.log();\n\n        if (event.keyCode === 37) {\n          _this2.changeplace('left');\n        } else if (event.keyCode === 39) {\n          _this2.changeplace('right');\n        } else if (event.keyCode === 27) {\n          if (_this2.state.showCarousel === true) {\n            _this2.closeCarousel();\n\n            return;\n          } else if (_this2.state.showGallery === true) {\n            _this2.toggleGallery();\n\n            return;\n          }\n\n          return;\n        }\n      });\n    }\n  }, {\n    key: \"changeplace\",\n    value: function changeplace(direction) {\n      var place = this.state.place;\n\n      if (direction === 'right') {\n        place === this.state.numPhoto ? place = 1 : place++;\n      } else if (direction === 'left') {\n        place === 1 ? place = this.state.numPhoto : place--;\n      }\n\n      this.placeCarousel(place);\n    }\n  }, {\n    key: \"getEndpoint\",\n    value: function getEndpoint() {\n      return \"/api\".concat(window.location.pathname);\n    } // get listing data from endpoint id number\n\n  }, {\n    key: \"updateData\",\n    value: function updateData() {\n      var _this3 = this;\n\n      axios__WEBPACK_IMPORTED_MODULE_4___default().get(\"\".concat(this.getEndpoint(), \"listing\")).then(function (res) {\n        _this3.setState({\n          listingInfo: res.data,\n          numPhoto: res.data.photos.length\n        });\n      })[\"catch\"](function (err) {\n        return console.log(err);\n      });\n    }\n  }, {\n    key: \"updateSave\",\n    value: function updateSave() {\n      var _this4 = this;\n\n      var update = {\n        saved: !this.state.listingInfo.saved\n      };\n      axios__WEBPACK_IMPORTED_MODULE_4___default().put(\"\".concat(this.getEndpoint(), \"listing\"), update).then(function (res) {\n        _this4.setState({\n          listingInfo: res.data\n        });\n\n        console.log(res.data.saved);\n      })[\"catch\"](function (err) {\n        return console.log(err);\n      });\n    }\n  }, {\n    key: \"toggleGallery\",\n    value: function toggleGallery() {\n      this.setState({\n        showGallery: !this.state.showGallery\n      });\n    }\n  }, {\n    key: \"toggleShare\",\n    value: function toggleShare() {\n      this.setState({\n        showShare: !this.state.showShare\n      });\n    }\n  }, {\n    key: \"toggleCarousel\",\n    value: function toggleCarousel(id) {\n      var numberId = Number(id);\n      this.setState({\n        place: numberId,\n        showCarousel: !this.state.showCarousel\n      });\n      console.log(this.state);\n    }\n  }, {\n    key: \"placeCarousel\",\n    value: function placeCarousel(id) {\n      var numberId = Number(id);\n      this.setState({\n        place: numberId\n      });\n    }\n  }, {\n    key: \"closeCarousel\",\n    value: function closeCarousel() {\n      this.setState({\n        showCarousel: false\n      });\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_central_Central_jsx__WEBPACK_IMPORTED_MODULE_1__.default, {\n        listingInfo: this.state.listingInfo,\n        numPhoto: this.state.numPhoto,\n        toggleGallery: this.toggleGallery,\n        save: this.updateSave\n      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_gallery_Gallery_jsx__WEBPACK_IMPORTED_MODULE_2__.default, {\n        listingInfo: this.state.listingInfo,\n        show: this.state.showGallery,\n        numPhoto: this.state.numPhoto,\n        toggleGallery: this.toggleGallery,\n        toggleCarousel: this.toggleCarousel,\n        addPlace: this.placeCarousel,\n        save: this.updateSave\n      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_carousel_Carousel_jsx__WEBPACK_IMPORTED_MODULE_3__.default, {\n        listingInfo: this.state.listingInfo,\n        show: this.state.showCarousel,\n        toggleCarousel: this.toggleCarousel,\n        closeCarousel: this.closeCarousel,\n        numPhoto: this.state.numPhoto,\n        place: this.state.place,\n        addPlace: this.placeCarousel,\n        save: this.updateSave\n      }));\n    }\n  }]);\n\n  return PhotoModule;\n}(react__WEBPACK_IMPORTED_MODULE_0__.Component);\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (PhotoModule);\n\n//# sourceURL=webpack://front-end/./client/components/PhotoModule.jsx?");
 
 /***/ }),
 
@@ -463,7 +488,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var _components_PhotoModule_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/PhotoModule.jsx */ \"./client/components/PhotoModule.jsx\");\n;\n\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_PhotoModule_jsx__WEBPACK_IMPORTED_MODULE_2__.default, null), document.getElementById('app'));\n\n//# sourceURL=webpack://front-end/./client/index.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var _components_PhotoModule_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/PhotoModule.jsx */ \"./client/components/PhotoModule.jsx\");\n;\n\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_PhotoModule_jsx__WEBPACK_IMPORTED_MODULE_2__.default, null), document.getElementById('photos'));\n\n//# sourceURL=webpack://front-end/./client/index.jsx?");
 
 /***/ }),
 
@@ -518,6 +543,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*****************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 9:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -531,6 +557,7 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
   \*********************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 65:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -723,6 +750,16 @@ eval("/** @license React v0.20.1\n * scheduler-tracing.development.js\n *\n * Co
 /*! export unstable_wrapCallback [provided] [no usage info] [missing usage info prevents renaming] */
 /*! other exports [not provided] [no usage info] */
 /*! runtime requirements: __webpack_exports__ */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 52:26-46 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 125:13-33 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 149:24-44 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 193:15-35 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 548:28-48 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 565:25-45 */
+/*! CommonJS bailout: exports.unstable_shouldYield(...) prevents optimization as exports is passed as call context at 578:74-102 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 591:20-40 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 695:20-40 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 804:24-44 */
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -837,6 +874,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \****************************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__.nc, __webpack_require__.* */
+/*! CommonJS bailout: module.exports is used directly at 230:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
