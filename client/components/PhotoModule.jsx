@@ -16,7 +16,6 @@ class PhotoModule extends React.Component {
       place: 0
     };
     this.updateData = this.updateData.bind(this);
-    this.getEndpoint = this.getEndpoint.bind(this);
     this.toggleGallery = this.toggleGallery.bind(this);
     this.toggleCarousel = this.toggleCarousel.bind(this);
     this.toggleShare = this.toggleShare.bind(this);
@@ -61,13 +60,10 @@ class PhotoModule extends React.Component {
 
 
 
-  getEndpoint() {
-    return `/api${window.location.pathname}`;
-  }
 
   // get listing data from endpoint id number
   updateData() {
-    axios.get(`${this.getEndpoint()}listing`)
+    axios.get(`${window.location.pathname}listing`)
       .then(res => {
         this.setState({
           listingInfo: res.data,
@@ -80,7 +76,7 @@ class PhotoModule extends React.Component {
   updateSave() {
 
     let update = {saved: !this.state.listingInfo.saved};
-    axios.put(`${this.getEndpoint()}listing`, update)
+    axios.put(`${window.location.pathname}listing`, update)
       .then(res => {
         this.setState({
           listingInfo: res.data,

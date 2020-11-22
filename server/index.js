@@ -16,8 +16,9 @@ const PATH = path.join(__dirname, '..', 'public/');
 
 app.use(bodyParser.json());
 
-app.use('/homes/:id', express.static(PATH));
+
 app.use('/', express.static(PATH));
+app.use('/api/homes/:id', express.static(PATH));
 
 
 app.get('/api/homes/:id/listing', (req, res) => {
