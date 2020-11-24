@@ -43,13 +43,13 @@
 }
 
 .centralImageTwo {
-  width: 248px;
+  width: 240px;
   height: 250px;
   border-left: 10px solid white;
 }
 
 .centralImageThree {
-  width: 248px;
+  width: 240px;
   height: 250px;
   grid-row-start: 2;
   border-top: 10px solid white;
