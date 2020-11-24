@@ -41,9 +41,9 @@ const PhotoGrid = ({photos, toggleCarousel, addPlace}) => {
       } else if (randRow === 3 || lastRow === 3) {
         finalGrid.push(
           <div key={currentPhoto + 1} className ={styles.threeColumns}>
-            <img onClick={() => { check(); }} className ={styles.photo} id={currentPhoto + 1} key={currentPhoto + 1} src={photos[currentPhoto]} width="33%" height="45%"></img>
-            <img onClick={() => { check(); }} className ={styles.photo} id={currentPhoto + 2} key={currentPhoto + 2} src={photos[currentPhoto + 1]} width="33%" height="45%"></img>
-            <img onClick={() => { check(); }} className ={styles.photo} id={currentPhoto + 3} key={currentPhoto + 3} src={photos[currentPhoto + 2]} width="33%" height="45%"></img>
+            <img onClick={() => { check(); }} className ={styles.photo} id={currentPhoto + 1} key={currentPhoto + 1} src={photos[currentPhoto]} width="33.33%" height="45%"></img>
+            <img onClick={() => { check(); }} className ={styles.photo} id={currentPhoto + 2} key={currentPhoto + 2} src={photos[currentPhoto + 1]} width="33.33%" height="45%"></img>
+            <img onClick={() => { check(); }} className ={styles.photo} id={currentPhoto + 3} key={currentPhoto + 3} src={photos[currentPhoto + 2]} width="33.33%" height="45%"></img>
           </div>
         );
         currentPhoto += 3;

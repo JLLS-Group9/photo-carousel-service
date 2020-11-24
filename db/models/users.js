@@ -46,7 +46,7 @@ function insertOne(user, callback) {
 
 
 
-// module.exports.insertUser = insertOne;
+module.exports.insertUser = insertOne;
 // module.exports.find = findOne;
 // module.exports.save = saveListing;
 // module.exports.delete = deleteListing;
