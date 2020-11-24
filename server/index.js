@@ -20,6 +20,12 @@ app.use(bodyParser.json());
 app.use('/', express.static(PATH));
 app.use('/api/homes/:id', express.static(PATH));
 
+app.get('/api/:id', (req, res) => {
+  let query = req.params;
+  console.log(query);
+  res.send(req.params)
+})
+
 
 app.get('/api/homes/:id/listing', (req, res) => {
   let query = req.params;
