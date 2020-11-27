@@ -36,8 +36,8 @@
 .carousel {
   position: relative;
   left: 12.5%;
-  width: 75%;
-  height: 90%;
+  width: 75vw;
+  height: 90vh;
 }
 
 .photoCarousel  {
@@ -87,7 +87,7 @@
 
 
 .photoNumber {
-  position: fixed;
+  position: absolute;
   size: 2rem;
   bottom: 2rem;
   left: 2rem;

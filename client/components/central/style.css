@@ -45,15 +45,15 @@
 .centralImageTwo {
   width: 240px;
   height: 250px;
-  border-left: 10px solid white;
+  border-left: 7px solid white;
 }
 
 .centralImageThree {
   width: 240px;
   height: 250px;
   grid-row-start: 2;
-  border-top: 10px solid white;
-  border-left: 10px solid white;
+  border-top: 7px solid white;
+  border-left: 7px solid white;
 }
 
 .gridCentral:hover {

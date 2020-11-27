@@ -5,7 +5,6 @@ const PhotoGrid = ({photos, toggleCarousel, addPlace}) => {
 
   let check = () => {
     let id = (event.target.id);
-
     toggleCarousel(id);
   };
 
@@ -22,7 +21,6 @@ const PhotoGrid = ({photos, toggleCarousel, addPlace}) => {
       }
       previousRow = randRow;
       let lastRow = len - currentPhoto;
-
       if (randRow === 1 || lastRow === 1) {
         finalGrid.push(
           <div key={currentPhoto + 1} className={styles.oneColumns}>
@@ -49,12 +47,10 @@ const PhotoGrid = ({photos, toggleCarousel, addPlace}) => {
         currentPhoto += 3;
       }
     }
-
     return finalGrid;
   };
 
   const [grid, setGrid] = useState(poplateGrid(photos));
-
   return (
     <div className={styles.gridContainer}>
       <div>

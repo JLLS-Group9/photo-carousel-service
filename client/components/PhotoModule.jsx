@@ -28,8 +28,6 @@ class PhotoModule extends React.Component {
   componentDidMount() {
     this.updateData();
     window.addEventListener('keydown', () =>{
-      console.log('A key was pressed', event.keyCode);
-      console.log();
       if (event.keyCode === 37) {
         this.changeplace('left');
       } else if (event.keyCode === 39) {
@@ -47,7 +45,6 @@ class PhotoModule extends React.Component {
     });
   }
 
-
   changeplace(direction) {
     let place = this.state.place;
     if (direction === 'right') {
@@ -58,10 +55,6 @@ class PhotoModule extends React.Component {
     this.placeCarousel(place);
   }
 
-
-
-
-  // get listing data from endpoint id number
   updateData() {
     axios.get(`${window.location.pathname}listing`)
       .then(res => {
@@ -74,7 +67,6 @@ class PhotoModule extends React.Component {
   }
 
   updateSave() {
-
     let update = {saved: !this.state.listingInfo.saved};
     axios.put(`${window.location.pathname}listing`, update)
       .then(res => {
@@ -98,15 +90,12 @@ class PhotoModule extends React.Component {
     });
   }
 
-
-
   toggleCarousel(id) {
     let numberId = Number(id);
     this.setState({
       place: numberId,
       showCarousel: !this.state.showCarousel,
     });
-    console.log(this.state);
   }
 
   placeCarousel(id) {
@@ -121,7 +110,6 @@ class PhotoModule extends React.Component {
       showCarousel: false,
     });
   }
-
 
   render() {
     return (
@@ -151,7 +139,6 @@ class PhotoModule extends React.Component {
           addPlace={this.placeCarousel}
           save={this.updateSave}
         />
-        {/* <Share /> */}
       </div>
     );
   }
