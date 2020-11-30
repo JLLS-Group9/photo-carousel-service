@@ -163,7 +163,7 @@ path{
   border-radius: 16px;
   margin: 6px;
   height: 90vh;
-  width: 70vw;
+  width: 65vw;
 }
 
 
@@ -189,26 +189,26 @@ path{
 }
 
 .photoOne {
-  width: 99.5%;
+  width: 99.25%;
   height: 90vh;
   margin-left: .75%;
-  margin-bottom: .75%;
+  margin-bottom: .5%;
 }
 
 .photoTwo {
-  width: 49%;
+  width: 49.25%;
   height: 55vh;
   overflow: hidden;
   margin-left: .75%;
-  margin-bottom: .75%;
+  margin-bottom: .5%;
 }
 
 .photoThree {
-  width: 32.33%;
+  width: 32.58%;
   height: 40vh;
   overflow: hidden;
   margin-left: .75%;
-  margin-bottom: .75%;
+  margin-bottom: .5%;
 }
 
 .first {
