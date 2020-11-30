@@ -66,6 +66,9 @@ const Carousel = ({listingInfo, show, closeCarousel, place, addPlace, save}) => 
               <span className={styles.share}>
                 <svg className={styles.sharesvg} width="25" height="25" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M17.29 7.2v14.285h-2.66V7.201l-3.99 3.99L8.76 9.31l7.2-7.2 7.2 7.2-1.88 1.88-3.99-3.99zm5.32 9.298h-2.66v-2.66h5.32v15.295H6.65V13.838h5.32v2.66H9.31v9.975h13.3v-9.975z" fill="rgb(0, 120, 130)"></path>
                 </svg> Share</span>
+                <span className={styles.closesvg} onClick={() => { closeCarousel(); } }>
+                  <svg width="24" height="24" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path className={styles.cover} d="M27.816 25.935l-1.881 1.88-21.83-21.83 1.88-1.88 21.83 21.83zm-1.881-21.83l1.88 1.88-21.83 21.83-1.88-1.88 21.83-21.83z" fill="#869099"></path></svg>
+                </span>
             </div>
           </div>
         </div>

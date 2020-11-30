@@ -150,10 +150,15 @@
   position: relative;
   padding: 5px;
   padding-left: 10px;
-  top: 14px;
+  top: 7px;
   cursor: pointer;
 
 }
+
+.cover:hover {
+  fill: rgb(0, 120, 130);
+}
+
 
 .hidden {
   display: none;
