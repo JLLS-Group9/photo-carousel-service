@@ -1,0 +1,335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavBar /> renders 1`] = `
+<div>
+  <div
+    className="navBar"
+  >
+    <span
+      className="navPhoto"
+    >
+      Photos
+    </span>
+    <span
+      className="navborders"
+    >
+      Map
+    </span>
+    <span
+      className="navborders"
+    >
+      Street View
+    </span>
+    <span
+      className="navborders"
+    >
+      Schools
+    </span>
+    <span
+      className="navborders"
+    >
+      Crime
+    </span>
+    <span
+      className="navborders"
+    >
+      Commute
+    </span>
+    <span
+      className="navborders"
+    >
+      Stop 
+      &
+       Shop
+    </span>
+  </div>
+  <div
+    className="gridButtons"
+  >
+    <span
+      className="save"
+      onClick={[Function]}
+    >
+      <svg
+        className="heartsvg"
+        height="25"
+        viewBox="0 0 32 32"
+        width="25"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M26.95 11.863a5.214 5.214 0 0 0-8.908-3.677l-1.908 1.908-1.906-1.908a5.214 5.214 0 1 0-7.377 7.366l1.912 1.913 7.371 7.373 7.373-7.373 1.912-1.912a5.193 5.193 0 0 0 1.53-3.69zM16.157 6.31A7.874 7.874 0 1 1 27.3 17.433l-1.913 1.913-9.254 9.254-1.88-1.88-7.373-7.374-1.91-1.91a7.874 7.874 0 1 1 11.137-11.13l.027.025.022-.022z"
+          fill="rgb(0, 120, 130)"
+        />
+      </svg>
+      Save
+    </span>
+    <span
+      className="share"
+    >
+      <svg
+        className="sharesvg"
+        height="25"
+        viewBox="0 0 32 32"
+        width="25"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M17.29 7.2v14.285h-2.66V7.201l-3.99 3.99L8.76 9.31l7.2-7.2 7.2 7.2-1.88 1.88-3.99-3.99zm5.32 9.298h-2.66v-2.66h5.32v15.295H6.65V13.838h5.32v2.66H9.31v9.975h13.3v-9.975z"
+          fill="rgb(0, 120, 130)"
+        />
+      </svg>
+       Share
+    </span>
+    <span
+      className="closesvg"
+      onClick={[Function]}
+    >
+      <svg
+        height="24"
+        viewBox="0 0 32 32"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          className="cover"
+          d="M27.816 25.935l-1.881 1.88-21.83-21.83 1.88-1.88 21.83 21.83zm-1.881-21.83l1.88 1.88-21.83 21.83-1.88-1.88 21.83-21.83z"
+          fill="#869099"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<NavBar /> renders Form 1`] = `
+<div
+  className="form"
+>
+  <div
+    className="content"
+  >
+    <div
+      className="formHeader"
+    >
+      Contact This Property
+    </div>
+    <div>
+      <form>
+        <input
+          id="fname"
+          name="name"
+          placeholder="Your Name"
+          type="text"
+        />
+        <input
+          id="fname"
+          name="number"
+          placeholder="Your Phone Number"
+          type="text"
+        />
+        <input
+          id="fname"
+          name="email"
+          placeholder="Your Email"
+          type="text"
+        />
+        <textarea
+          cols="40"
+          name="tutorial"
+          placeholder="I am interested in this rental and would like to schedule a viewing. Please let me know when this would be possible."
+          rows="3"
+        />
+        <input
+          className="submit"
+          type="submit"
+          value="Check Availability"
+        />
+        <label
+          className="container"
+        >
+          <input
+            className="checkmark"
+            type="checkbox"
+          />
+           Enable 1-Click Request
+        </label>
+      </form>
+    </div>
+    <div
+      className="warning"
+    >
+      You agree to Trulia's Terms of Use 
+      &
+       Privacy Policy By choosing to contact a property, you also agree that Zillow Group, landlords, and property managers may call or text you about any inquiries you submit through our services, which may involve use of automated means and prerecorded/artificial voices. You don't need to consent as a condition of renting any property, or buying any other goods or services. Message/data rates may apply.
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<NavBar /> renders NavBar 1`] = `
+<div>
+  <div
+    className="navBar"
+  >
+    <span
+      className="navPhoto"
+    >
+      Photos
+    </span>
+    <span
+      className="navborders"
+    >
+      Map
+    </span>
+    <span
+      className="navborders"
+    >
+      Street View
+    </span>
+    <span
+      className="navborders"
+    >
+      Schools
+    </span>
+    <span
+      className="navborders"
+    >
+      Crime
+    </span>
+    <span
+      className="navborders"
+    >
+      Commute
+    </span>
+    <span
+      className="navborders"
+    >
+      Stop 
+      &
+       Shop
+    </span>
+  </div>
+  <div
+    className="gridButtons"
+  >
+    <span
+      className="save"
+      onClick={[Function]}
+    >
+      <svg
+        className="heartsvg"
+        height="25"
+        viewBox="0 0 32 32"
+        width="25"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M26.95 11.863a5.214 5.214 0 0 0-8.908-3.677l-1.908 1.908-1.906-1.908a5.214 5.214 0 1 0-7.377 7.366l1.912 1.913 7.371 7.373 7.373-7.373 1.912-1.912a5.193 5.193 0 0 0 1.53-3.69zM16.157 6.31A7.874 7.874 0 1 1 27.3 17.433l-1.913 1.913-9.254 9.254-1.88-1.88-7.373-7.374-1.91-1.91a7.874 7.874 0 1 1 11.137-11.13l.027.025.022-.022z"
+          fill="rgb(0, 120, 130)"
+        />
+      </svg>
+      Save
+    </span>
+    <span
+      className="share"
+    >
+      <svg
+        className="sharesvg"
+        height="25"
+        viewBox="0 0 32 32"
+        width="25"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M17.29 7.2v14.285h-2.66V7.201l-3.99 3.99L8.76 9.31l7.2-7.2 7.2 7.2-1.88 1.88-3.99-3.99zm5.32 9.298h-2.66v-2.66h5.32v15.295H6.65V13.838h5.32v2.66H9.31v9.975h13.3v-9.975z"
+          fill="rgb(0, 120, 130)"
+        />
+      </svg>
+       Share
+    </span>
+    <span
+      className="closesvg"
+      onClick={[Function]}
+    >
+      <svg
+        height="24"
+        viewBox="0 0 32 32"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          className="cover"
+          d="M27.816 25.935l-1.881 1.88-21.83-21.83 1.88-1.88 21.83 21.83zm-1.881-21.83l1.88 1.88-21.83 21.83-1.88-1.88 21.83-21.83z"
+          fill="#869099"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<NavBar /> renders form 1`] = `
+<div
+  className="form"
+>
+  <div
+    className="content"
+  >
+    <div
+      className="formHeader"
+    >
+      Contact This Property
+    </div>
+    <div>
+      <form>
+        <input
+          id="fname"
+          name="name"
+          placeholder="Your Name"
+          type="text"
+        />
+        <input
+          id="fname"
+          name="number"
+          placeholder="Your Phone Number"
+          type="text"
+        />
+        <input
+          id="fname"
+          name="email"
+          placeholder="Your Email"
+          type="text"
+        />
+        <textarea
+          cols="40"
+          name="tutorial"
+          placeholder="I am interested in this rental and would like to schedule a viewing. Please let me know when this would be possible."
+          rows="3"
+        />
+        <input
+          className="submit"
+          type="submit"
+          value="Check Availability"
+        />
+        <label
+          className="container"
+        >
+          <input
+            className="checkmark"
+            type="checkbox"
+          />
+           Enable 1-Click Request
+        </label>
+      </form>
+    </div>
+    <div
+      className="warning"
+    >
+      You agree to Trulia's Terms of Use 
+      &
+       Privacy Policy By choosing to contact a property, you also agree that Zillow Group, landlords, and property managers may call or text you about any inquiries you submit through our services, which may involve use of automated means and prerecorded/artificial voices. You don't need to consent as a condition of renting any property, or buying any other goods or services. Message/data rates may apply.
+    </div>
+  </div>
+</div>
+`;
