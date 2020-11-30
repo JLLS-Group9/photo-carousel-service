@@ -160,6 +160,7 @@ path{
   scrollbar-width: auto;
   cursor: pointer;
   border-bottom: 10px solid white;
+  border-radius: 16px;
   margin: 6px;
   height: 90vh;
   width: 70vw;
@@ -191,7 +192,7 @@ path{
   width: 99.5%;
   height: 90vh;
   margin-left: .75%;
-  margin-bottom: 6px;
+  margin-bottom: .75%;
 }
 
 .photoTwo {
@@ -199,7 +200,7 @@ path{
   height: 55vh;
   overflow: hidden;
   margin-left: .75%;
-  margin-bottom: 6px;
+  margin-bottom: .75%;
 }
 
 .photoThree {
@@ -207,7 +208,7 @@ path{
   height: 40vh;
   overflow: hidden;
   margin-left: .75%;
-  margin-bottom: 6px;
+  margin-bottom: .75%;
 }
 
 .first {
